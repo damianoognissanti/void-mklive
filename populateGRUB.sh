@@ -34,5 +34,6 @@ HERE
 done
 
 umount /mnt
+chmod +x ./includedir/etc/grub.d/10_custom 
 cp ./includedir/etc/grub.d/10_custom /etc/grub.d/10_custom
 update-grub
